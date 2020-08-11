@@ -4,7 +4,7 @@ ResNet example with textile data-set.
 
 ## Model
 
-The model is contained in the `model.json` folder. It can be loaded into PerceptiLabs 10.x and trained once the data inputs are set up correctly.
+The model is contained in the `model` folder. It can be loaded into PerceptiLabs 10.x and trained once the data inputs are set up correctly.
 
 ---
 
