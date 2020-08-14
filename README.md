@@ -19,6 +19,7 @@ The dataset consists of two files:
 ​
 The dataset is derived from the [Textile Defect Detection dataset on Kaggle](https://www.kaggle.com/belkhirnacim/textiledefectdetection/version/2). We pre-processed the data into two NumPy arrays which can be immediately used for training in PerceptiLabs via Data components.
 ​
+
 The **Textile Defect Detection** dataset has images of textiles with their corresponding labels based of different kinds of defects that may take place in an industrial setting. A randomly selected set of images from each class looks like the following:
 ​
 ![](data_preview.png)
