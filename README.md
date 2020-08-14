@@ -17,6 +17,7 @@ The dataset consists of two files:
 * `X.npy` is a [NumPy](https://numpy.org/) array of shape [72000, 64, 64, 1], corresponding to 72,000 distinct 64x64 monochrome images.
 * `Y.npy` is a NumPy array of shape [72000], which consists of the corresponding integer labels for each defect type.
 ​
+
 The dataset is derived from the [Textile Defect Detection dataset on Kaggle](https://www.kaggle.com/belkhirnacim/textiledefectdetection/version/2). We pre-processed the data into two NumPy arrays which can be immediately used for training in PerceptiLabs via Data components.
 ​
 
