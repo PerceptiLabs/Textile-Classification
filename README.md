@@ -29,11 +29,6 @@ The **Textile Defect Detection** dataset has images of textiles with their corre
 
 ![](data_preview.png)
 
-# Structure
-
-This repo has the following structure:
-* **/model**: contains the PerceptiLabs **model.json** file.
-
 
 # Installation
 
