@@ -40,16 +40,16 @@ Follow the steps below to load the sample model in PerceptiLabs:
 
 1. Download the data files (**X.npy** and **Y.npy**) from [here](https://drive.google.com/drive/folders/1i-k71RMxa0LjNJqAjh-cclN6RA-WeBmv?usp=sharing).
 2. Clone or download the sample model from GitHub.
-2. On the **ModelHub** screen, import the sample model into PerceptiLabs. Note that this model is not compatible with PerceptiLabs 0.12 as the UI and components have changed. When prompted for the model's directory, navigate to and select the location of the **model.json** file.
-3. Open the topmost Data component in the model, navigate to its code tab and update the call to ```np.load()``` passing in the absolute path of the **X.npy** data file that you downloaded in Step 1. For example:
+3. On the **ModelHub** screen, import the sample model into PerceptiLabs. Note that this model is not compatible with PerceptiLabs 0.12 as the UI and components have changed. When prompted for the model's directory, navigate to and select the location of the **model.json** file.
+4. Open the topmost Data component in the model, navigate to its code tab and update the call to ```np.load()``` passing in the absolute path of the **X.npy** data file that you downloaded in Step 1. For example:
 ```python
 ...
 matrix_DataData_Data_1_0 = np.load("c:/Textile-Classification-master/X.npy", mmap_mode='r+').astype(np.float32)
 ...
 ```
-4. Save the code changes for that Data component.
-5. Open the bottom most Data component, navigate through its menus until you get to the **Choose Files** button.
-6. Click **Choose Files**, navigate to the **Y.npy** data file that you downloaded in Step 1, and click **Confirm**.
+5. Save the code changes for that Data component.
+6. Open the bottom most Data component, navigate through its menus until you get to the **Choose Files** button.
+7. Click **Choose Files**, navigate to the **Y.npy** data file that you downloaded in Step 1, and click **Confirm**.
 
 
 # Community
